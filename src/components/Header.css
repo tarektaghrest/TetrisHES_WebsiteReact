@@ -1,0 +1,12 @@
+.site-header {
+  background-color: #222222;
+  padding: 1rem 0;
+  text-align: center;
+  border-bottom: 2px solid #ffcc00;
+}
+
+.site-header h1 {
+  color: #ffcc00;
+  font-size: 2rem;
+  margin: 0;
+}
