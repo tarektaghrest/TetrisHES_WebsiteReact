@@ -1,11 +1,15 @@
 .site-footer {
   margin-top: 5rem;
-  padding: 1rem;
-  text-align: right;
+  padding: 1rem 2rem;
   background-color: #222222;
+  display: flex; /* Flexbox */
+  align-items: center; /* centrer verticalement */
+  justify-content: flex-end; /* logo à droite */
+  gap: 1rem; /* espace entre éléments éventuels */
 }
 
 .footer-logo {
   width: 300px;
   opacity: 0.9;
+  height: auto; /* garder proportions */
 }
