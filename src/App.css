@@ -425,3 +425,66 @@ tbody tr:hover {
     display: none;
   }
 }
+
+/* =========================
+   Image Modal
+========================= */
+.image-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.85);
+  /* Dark dim */
+  backdrop-filter: blur(8px);
+  /* Blur effect */
+  -webkit-backdrop-filter: blur(8px);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeIn 0.3s ease;
+}
+
+.image-modal-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-modal-content img {
+  max-width: 100%;
+  max-height: 90vh;
+  border-radius: 8px;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+  object-fit: contain;
+}
+
+
+.detailed-content img {
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.detailed-content img:hover {
+  transform: scale(1.01);
+}
+
+.close-button {
+  position: absolute;
+  top: -50px;
+  right: -20px;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 10000;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  transition: transform 0.2s;
+}
