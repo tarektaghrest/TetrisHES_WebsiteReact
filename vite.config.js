@@ -5,7 +5,7 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   plugins: [react()],
 
-  base: "/Tetris/",
+  base: "/TetrisHES_WebsiteReact/",
   build: {
     outDir: "docs",
   },
