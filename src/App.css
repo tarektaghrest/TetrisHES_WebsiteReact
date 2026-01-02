@@ -164,7 +164,6 @@ img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.2rem;
   margin-top: 2.5rem;
   padding: 1.5rem 0;
 }
