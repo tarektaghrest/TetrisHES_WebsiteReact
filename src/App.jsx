@@ -12,7 +12,7 @@ import Footer from "./components/Footer";
 
 function App() {
   return (
-    <Router basename="/Tetris">
+    <Router basename="/TetrisHES_WebsiteReact">
       <Header />
       <Navbar />
       <Routes>
